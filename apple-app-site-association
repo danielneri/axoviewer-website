@@ -4,7 +4,7 @@
     "details": [
     {
       "appID": "EN6A2CG746.com.danielneri.AxoViewer",
-      "paths": ["/viewItem"]
+      "paths": ["/viewItem","*"]
     }
     ]
   }
