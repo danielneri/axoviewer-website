@@ -282,6 +282,11 @@
 		$( '#preloader' ).fadeOut( 1000, function() {
 			$( 'body' ).addClass( 'preloader-done' );
 			resizeVideoBackground();
+			var wow = new WOW({
+				mobile : false,
+				offset : 60,
+			});
+			wow.init();
 		});
 
 	});
